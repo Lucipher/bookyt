@@ -19,6 +19,7 @@ de:
      civil:   Personalien
     company:
       address: Adresse
+      book_keeping: Buchhaltung
 
   activerecord:
     models:
@@ -137,6 +138,8 @@ de:
         sex:              Geschlecht
         type:             Typ
         full_name:        Name
+        religion:         Religion
+        civil_status:     Zivilstand
       company:
         full_name:        Name
         date_of_birth:    Geburtsdatum
@@ -181,6 +184,7 @@ de:
         code:          Rechnungsnr.
         duration_from: Von
         duration_to:   Bis
+        biller:        'Zugunsten von:'
       line_item:
         date:          Datum
         times:         Anzahl
@@ -200,6 +204,7 @@ de:
         users:                     Benutzer
         incorporated_on:           Gründung
         fiscal_year_ends_on: Ende des 1. Fiskaljahres
+        vat_number:                MwSt.-Nummer
       user:
         email:                          E-Mail
         password:                       Passwort
@@ -221,6 +226,7 @@ de:
         region:                         Region
         postal_code:                    PLZ   
         country_name:                   Land
+        locale:                         Sprache
       vcard:
         full_name:                      Name
       booking_import:
@@ -329,7 +335,7 @@ de:
     total:            Total
     difference:       Differenz
     back:             Zurück
-    back_to:          Zurück zum %{type}
+    back_to:          Zurück zu %{name}
     balance_report_for: Bilanz für %{company}
     assets:             Aktiva
     current_assets:     Umlaufvermögen

@@ -1,5 +1,5 @@
-# German locale
-de:
+# English locale
+en:
   # Application
   application:
     title: bookyt
@@ -19,6 +19,7 @@ de:
      civil:   Personalien
     company:
       address: address
+      book_keeping: book keeping
 
   activerecord:
     models:
